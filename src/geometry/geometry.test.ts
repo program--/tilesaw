@@ -1,4 +1,4 @@
-import { GeometryType, MultiLineStrings, LineStrings, MultiPoints, MultiPolygons, Points, Polygons } from '../src/Geometry';
+import { GeometryType, MultiLineStrings, LineStrings, MultiPoints, MultiPolygons, Points, Polygons } from './geometry';
 import { expect, test } from 'vitest';
 
 const logicalPoints = [
