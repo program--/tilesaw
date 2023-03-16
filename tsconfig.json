@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es6",
+        "moduleResolution": "node",
+        "lib": ["es2022"],
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true,
+        "isolatedModules": true,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "paths": { "*": ["node_modules/*", "src"] },
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

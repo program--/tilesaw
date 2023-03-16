@@ -1,0 +1,33 @@
+{
+    "name": "tilesaw",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "Saw vector files into vector tiles",
+    "author": "Justin Singh-Mohudpur",
+    "license": "MIT",
+    "repository": "https://github.com/program--/tilesaw",
+    "homepage": "https://github.com/program--/tilesaw",
+    "bugs": {
+        "url": "https://github.com/program--/tilesaw/issues",
+        "email": "justin@justinsingh.me"
+    },
+    "files": ["dist"],
+    "main": "./dist/tilesaw.umd.cjs",
+    "module": "./dist/tilesaw.js",
+    "devDependencies": {
+        "@vitest/coverage-c8": "^0.29.3",
+        "typescript": "^4.9.5",
+        "vitest": "^0.29.3"
+    },
+    "exports": {
+        ".": {
+            "import": "./dist/tilesaw.js",
+            "require": "./dist/tilesaw.umd.cjs"
+        }
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest",
+        "coverage": "vitest run --coverage"
+    }
+}
